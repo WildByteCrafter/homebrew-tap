@@ -1,20 +1,20 @@
 class Timegrep < Formula
   desc "A CLI tool for grepping time"
   homepage "https://github.com/WildByteCrafter/timegrep"
-  version "v1.0.0"
+  version "v1.1.0"
 
   on_macos do
-    url "https://github.com/WildByteCrafter/homebrew-tap/releases/download/v1.0.0/timegrep-v1.0.0-apple-darwin-universal.tar.gz"
-    sha256 "250ac77c8213461a3015d34060790934b2337f9b56de90f43f819bf46a312175"
+    url "https://github.com/WildByteCrafter/homebrew-tap/releases/download/v1.1.0/timegrep-v1.1.0-apple-darwin-universal.tar.gz"
+    sha256 "b3376ee94ad64ebee62f2a254cdb2d9c05312ed33792c316e3eac7786caef14e"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/WildByteCrafter/homebrew-tap/releases/download/v1.0.0/timegrep-v1.0.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0d894449e59028b29bc35b2c3dab57c7e88b4366a189b1732ef631860668ef05"
+      url "https://github.com/WildByteCrafter/homebrew-tap/releases/download/v1.1.0/timegrep-v1.1.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "96eef8602b0d6f98bd64430930751b7ed3e35ed5aa54595ba612e55a4c47a529"
     else
-      url "https://github.com/WildByteCrafter/homebrew-tap/releases/download/v1.0.0/timegrep-v1.0.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f0e3f0ec8d00e19310dfab739077d5a1f5b86b1ea6c363fe2c002c2e0d76a8dd"
+      url "https://github.com/WildByteCrafter/homebrew-tap/releases/download/v1.1.0/timegrep-v1.1.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4f0471347db9c2582ed5f492aceed5c8a19393500d73dcfadceb1ef64c504e1d"
     end
   end
 
